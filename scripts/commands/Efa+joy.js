@@ -16,7 +16,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf("tafriya")==0 || body.indexOf("Asif")==0 || body.indexOf("jan")==0 || body.indexOf("jan")==0) {
+	if (body.indexOf("suna")==0 || body.indexOf("Asif")==0 || body.indexOf("jan")==0 || body.indexOf("jan")==0) {
 		var msg = {
 				body: "𝐌𝐃 Ahmed Asif Niloy",
 				attachment: fs.createReadStream(__dirname + `/Joy/tafriyaefa.mp4`)
