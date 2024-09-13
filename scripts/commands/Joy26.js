@@ -16,7 +16,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf("moyna")==0 || body.indexOf("😅")==0 || body.indexOf("😌")==0 || body.indexOf("😔")==0) {
+	if (body.indexOf("moyna")==0 || body.indexOf("moyna")==0 || body.indexOf("😌")==0 || body.indexOf("😔")==0) {
 		var msg = {
 				body: "চিৎকার করে কখনও নিজেকে\nনির্দোষ প্রমাণ করা যায়না!\nমাঝে মাঝে চুপ থাকতে হয় !\n\n𝐌𝐃 Ahmed Asif",
 				attachment: fs.createReadStream(__dirname + `/Joy/joy55.mp3`)
