@@ -6,15 +6,15 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "JOY-BOT",
+  "BOTNAME": "Asif Bot",
   "PREFIX": ".",
   "OPERATOR": [
-    "100065050393649",
-    "100003915536329"
+    "100062724886617",
+    ""
   ],
   "ADMINBOT": [
-    "100065050393649",
-    "100003915536329"
+    "100062724886617",
+    ""
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
