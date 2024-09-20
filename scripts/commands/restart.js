@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "restart",
 	version: "7.0.0",
-	permission: 2,
+	permission: 0,
 	credits: "ryuko",
 	prefix: false,
 	description: "restart bot system",
